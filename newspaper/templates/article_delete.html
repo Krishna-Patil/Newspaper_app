@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block discription %}
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <h2>Are you sure you want to delete '{{ object.title }}'</h2>
+    <input type="submit" value="Delete">
+</form>
+
+
+{% endblock discription %}

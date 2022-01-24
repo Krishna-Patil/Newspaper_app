@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block discription %}
+<h2>{{ object.title }}</h2>
+<p>{{ object.body }}</p>
+<div>
+    <a class="btn" href="{% url 'comment_create' article.id %}">Comment</a>
+</div>
+{% endblock discription %}
