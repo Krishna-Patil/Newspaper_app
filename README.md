@@ -1,4 +1,4 @@
-# Newspaper_app
+# Newspaper_app using Django
 
 ## With user authentication - Login, Logout, Signup and Authorisation.
 
